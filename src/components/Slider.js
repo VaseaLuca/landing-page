@@ -10,8 +10,8 @@ const SimpleSlider = () => {
     const settings = {
       dots: false,
       infinite: true,
-      speed: 500,
-      autopaySpeed: 17600,
+      speed: 600,
+      autopaySpeed: 27600,
       autoplay: true,
       slidesToShow: 1,
       slidesToScroll: 1,

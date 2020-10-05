@@ -5,10 +5,12 @@
 }
 .navbar {
   display: flex;
-  margin: 10px 40px 0 40px ;
+  margin: 15px 10px 0 10px ;
 }
 .nav-logo{
-  width: calc(60px + 1.4vw);
+  width: 120px;
+  min-width: 50px;
+  max-width: 100%;
   cursor: pointer;
 }
 .nav-space {
@@ -22,8 +24,8 @@
 .nav-menu {
   margin: auto 25px;
   color: #fff;
-  font-size: calc(12px + .6vw);
+  font-size: calc(10px + .57vw);
   white-space: nowrap;
   cursor: pointer;
-  
+  transition: 0.8s ease-in-out;
 }

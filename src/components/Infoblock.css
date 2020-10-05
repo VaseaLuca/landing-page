@@ -1,6 +1,35 @@
 .info-block {
+  display: flex;
   background-color: #F8F8F8;
   width: 100%;
-  height: 589px;
-  margin-top: -5px;
+  margin-top: -6px;
+}
+.info-block-row {
+  display: flex;
+  flex-flow: column;
+  margin: 180px 20px;
+  flex-basis: 50%;
+}
+.info-block-row-space {
+  flex: 1;
+}
+.info-block-rowOne {
+  font-size: calc(20px + 1vw);
+  font-weight: 500;
+  text-align: center;
+}
+.info-block-rowTwo {
+  font-size: calc(10px + 0.5vw);
+  color: rgba(0, 0, 0, 0.507);
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+.info-block-rowThree {
+  text-align: center;
+  font-size: calc(16px + 0.9vw);
+  font-weight: 100;
+  flex-basis: 50%;
+  margin: 180px 20px;
 }

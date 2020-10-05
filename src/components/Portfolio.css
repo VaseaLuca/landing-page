@@ -1,0 +1,74 @@
+.portfolio {
+  display: flex;
+}
+.portfolio-space {
+
+}
+.portfolio-first img {
+  width: 682px;
+  min-width: 130px;
+  max-width: 100%;
+  transition: 2s ease-in-out;
+}
+.portfolio-first {
+  margin-left: calc(5px + 2vw);
+  margin-right: 15px;
+  margin-top: 20px;
+  transition: 1.5s ease-in-out;
+}
+.portfolio-second img {
+  width: 370px;
+  min-width: 90px;
+  max-width: 100%;
+  transition: 1.5s ease-in-out;
+}
+.portfolio-second {
+  margin: auto auto;
+  transition: 1.5s ease-in-out;
+}
+.portfolio-third img {
+  width: 757px;
+  min-width: 200px;
+  max-width: 100%;
+  transition: 1.5s ease-in-out;
+
+}
+.portfolio-third{
+  margin-right: 15px;
+  margin-left: 15px;
+  transition: 1.5s ease-in-out;
+  text-align: center;
+  position: relative;
+}
+.portfolio-text {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: calc(10px + 0.57vw );
+  margin-top: 10px;
+  cursor: pointer;
+}
+.portfolio-text:hover {
+  color: rgba(82, 82, 82, 0.651);
+  transition: .2s ease-in-out;
+}
+.portfolio-third-top {
+  text-align: center;
+  font-size: calc(10px + 0.6vw);
+  white-space: nowrap;
+  position: absolute;
+  top: calc(20px + 2vw) ;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.863);
+}
+.portfolio-third-bottom {
+  font-size: calc(10px + 0.6vw);
+  transform: translate(-50%, -50%);
+  left: 50%;
+  position: absolute;
+  bottom: calc(20px + 3vw);
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.863);
+}

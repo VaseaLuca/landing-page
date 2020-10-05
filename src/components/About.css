@@ -1,0 +1,60 @@
+.about {
+  display: flex;
+  margin: 80px 0;
+}
+.about-coverPhoto {
+  display: flex;
+  justify-content: center;
+  flex-basis: 50%;
+  margin-left: calc(5px + 2vw);
+}
+.about-coverPhoto img {
+  width: 550px ;
+  min-width: 200px ;
+  max-width: 100%;
+  
+}
+.about-text-block {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  flex-basis: 50%;
+  margin: auto 12px auto 10px;
+}
+.block-one {
+  font-size: calc(15px + 1.6vw);
+  font-weight: 500;
+  margin-bottom: 20px;
+  transition: .2s ease-in-out;
+}
+.block-two {
+  font-size: calc(9px + 0.3vw);
+  font-weight: 200;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.507);
+  margin-bottom: 50px;
+  transition: .2s ease-in-out;
+}
+.block-three {
+  font-size: calc(12px + 1.2vw);
+  font-weight: 400;
+  margin-bottom: 30px;
+  transition: .2s ease-in-out;
+}
+.block-four {
+  font-size: calc(8px + 1vw);
+  font-weight: 300;
+  margin-bottom: 20px;
+  transition: .2s ease-in-out;
+}
+.block-five {
+  font-size: calc(10px + 0.6vw);
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: .2s ease-in-out;
+}
+.block-five:hover {
+  color:rgba(82, 82, 82, 0.651);
+  transition: .2s ease-in-out;
+}
