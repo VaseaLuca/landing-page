@@ -14,6 +14,7 @@ const App = () => {
       <Infoblock />
       <Portfolio />
       <About />
+      
     </div>
   );
 }
