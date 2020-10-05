@@ -1,0 +1,20 @@
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+}
+.slider div {
+  display: flex;
+  width: 100%;
+  height: auto;
+
+}
+.slider-img {
+  width: 100%;
+
+}
+.slick-slider {
+  max-width: 100%;
+
+}

@@ -1,0 +1,29 @@
+.nav{
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  margin: 10px 40px 0 40px ;
+}
+.nav-logo{
+  width: calc(60px + 1.4vw);
+  cursor: pointer;
+}
+.nav-space {
+  flex: 1;
+}
+.nav-right {
+  display: flex;
+  text-transform: uppercase;
+  flex-flow: nowrap;
+}
+.nav-menu {
+  margin: auto 25px;
+  color: #fff;
+  font-size: calc(12px + .6vw);
+  white-space: nowrap;
+  cursor: pointer;
+  
+}

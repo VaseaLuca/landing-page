@@ -1,9 +1,16 @@
 import React from 'react';
 
+import Slider from './Slider';
+import Navbar from './Navbar';
+import Infoblock from './Infoblock';
 const App = () => {
   return (
-    <div>App TEST</div>
-  )
+    <div className="app">
+      <Navbar />
+      <Slider />
+      <Infoblock />
+    </div>
+  );
 }
 
 export default App;
