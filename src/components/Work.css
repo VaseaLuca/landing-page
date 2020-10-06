@@ -1,0 +1,10 @@
+.work {
+  margin: 80px 20px 20px 20px;
+}
+.work-row-one {
+  display: flex;
+  align-content: center;
+}
+.work-row-two {
+    display: flex;
+}

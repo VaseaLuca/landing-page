@@ -1,0 +1,35 @@
+.workcard {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  text-align: center;
+  margin: auto ;
+}
+.workcard img {
+  width:500px;
+  align-items: center;
+}
+.work-img{
+  margin: auto;
+}
+.work-category {
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.507);
+  font-size: calc(10px + 0.25vw);
+  margin: 10px 0 15px 0;
+}
+.work-description {
+  font-size: calc(14px + 0.25vw);
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding: 0 160px;
+  cursor: pointer;
+}
+.work-description:hover {
+  color: rgba(24, 24, 24, 0.342);
+  transition: 0.2s ease-in-out;
+}
+.work-date{
+  color: rgba(0, 0, 0, 0.507);
+  font-size: calc(12px + 0.35vw);
+}
