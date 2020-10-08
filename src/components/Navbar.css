@@ -25,9 +25,11 @@
   font-size: calc(10px + .57vw);
   white-space: nowrap;
   cursor: pointer;
-  transition: 0.8s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
-
+.nav-menu:hover {
+  transform: scale(1.1);
+}
 @media (min-width: 1439px) {}
 
 @media (min-width: 1281px) {}
