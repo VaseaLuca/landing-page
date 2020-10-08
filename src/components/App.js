@@ -6,6 +6,9 @@ import Infoblock from './Infoblock';
 import Portfolio from './Portfolio';
 import About from './About';
 import Work from './Work';
+import Testimonials from './Testimonials';
+import Footer from './Footer';
+
 
 const App = () => {
   return (
@@ -16,6 +19,8 @@ const App = () => {
       <Portfolio />
       <About />
       <Work />
+      <Testimonials />
+      <Footer />
     </div>
   );
 }

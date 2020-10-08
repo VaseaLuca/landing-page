@@ -12,6 +12,8 @@ import './Work.css';
 const Work = () => {
   return (
     <div className="work">
+      <div className='work-look'>Take a look at</div>
+      <div className='work-portfolio'>My Recent Work</div>
       <div className="work-row-one">
         <Workcard
           landscape
