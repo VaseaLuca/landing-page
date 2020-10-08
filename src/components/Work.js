@@ -14,6 +14,7 @@ const Work = () => {
     <div className="work">
       <div className="work-row-one">
         <Workcard
+          landscape
           img={mountain1}
           category="Travel"
           description="Tempor orci dapibus ultrices in iaculis nunc sed"
@@ -26,13 +27,14 @@ const Work = () => {
           date="April 22, 2020"
         />
         <Workcard
+          landscape
           img={couple2}
           category="Couple"
           description="Magna fermentum iaculis eu non in vitae ultrices"
           date="March 11, 2020"
         />
       </div>
-      <div className='work-row-two'>
+      <div className="work-row-two">
         <Workcard
           img={couple3}
           category="Couple"
@@ -40,6 +42,7 @@ const Work = () => {
           date="September 9, 2020"
         />
         <Workcard
+          landscape
           img={couple4}
           category="Couple"
           description="Amet nisl suscipit adipiscing bibendum est"

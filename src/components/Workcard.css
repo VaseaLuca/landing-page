@@ -3,33 +3,85 @@
   flex-direction: column;
   width: 650px;
   text-align: center;
-  margin: auto ;
+  margin: auto;
 }
 .workcard img {
-  width:500px;
+  width: 450px;
+  max-width: 100%;
+  min-width: 280px;
   align-items: center;
+  transition: 0.2s ease-in-out;
 }
-.work-img{
+.work-img {
   margin: auto;
 }
 .work-category {
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.507);
   font-size: calc(10px + 0.25vw);
-  margin: 10px 0 15px 0;
+  margin: 10px 0 10px 0;
 }
 .work-description {
   font-size: calc(14px + 0.25vw);
   font-weight: 500;
-  margin-bottom: 20px;
-  padding: 0 160px;
+  margin-bottom: 15px;
+  padding-right: calc(20px + 7vw);
+  padding-left: calc(20px + 7vw);
   cursor: pointer;
 }
 .work-description:hover {
   color: rgba(24, 24, 24, 0.342);
   transition: 0.2s ease-in-out;
 }
-.work-date{
+.workcard:hover img {
+  cursor: pointer;
+  opacity: 0.9;
+  transition: 0.2s ease-in-out;
+}
+
+.work-date {
   color: rgba(0, 0, 0, 0.507);
   font-size: calc(12px + 0.35vw);
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1281px) and (max-width: 1439px)  {
+  .workcard img {
+     width: 400px;
+   }
+
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .workcard-landscape img {
+    width: 500px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .workcard-landscape img {
+    width: 500px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .workcard img {
+    width: 280px;
+  }
+  .work-date {
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 260px) and (max-width: 319px) {
+  .workcard img {
+    width: 240px;
+  }
+  .work-date {
+    margin-bottom: 10px;
+  }
 }

@@ -15,8 +15,8 @@ const Infoblock = () => {
         </div>
       </div>
       <div className="info-block-rowThree">
-        Nullam vehicula ipsum a arcu. Neque <br/> convallis a cras semper. Arcu non
-        odio <br/> euismod lacinia at quis risus. Consequat ac <br/> felis donec et odio.
+        Nullam vehicula ipsum a arcu. Neque convallis a cras semper. Arcu non
+        odio <br/> euismod lacinia at quis risus. Consequat ac felis donec et odio.
         Amet tellus cras adipiscing enim eu
       </div>
     </div>

@@ -5,10 +5,12 @@ import './About.css';
 
 const About = () => {
   return (
-    <div className='about-block'>
+    <div className="about-block">
       <div className="about">
         <div className="about-coverPhoto">
-          <img src={cover} alt="" />
+          <div className='pseudo-blockOne'>Hey, I’m Basil</div>
+          <div className='pseudo-blockTwo'>THE PERSON BEHIND THIS SHOTS</div>
+          <img className="coverPhoto-img" src={cover} alt="cover" />
         </div>
         <div className="about-text-block">
           <div className="block-one">Hey, I’m Basil</div>
@@ -24,7 +26,7 @@ const About = () => {
           <div className="block-five">MORE ABOUT ME</div>
         </div>
       </div>
-        <hr/>
+      <hr />
     </div>
   );
 }
