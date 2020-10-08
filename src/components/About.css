@@ -144,6 +144,13 @@ hr {
   }
   .block-three {
     margin-top: 40px;
+    font-size: calc(14px + 1.2vw);
+  }
+  .block-four{
+    font-size: calc(12px + 1vw);
+  }
+  .block-five {
+    font-size: calc(12px + 0.6vw);
   }
 }
 @media (min-width: 260px) and (max-width: 319px) {
@@ -191,5 +198,12 @@ hr {
 
   .block-three {
     margin-top: 40px;
+    font-size: calc(13px + 1.2vw);
+  }
+  .block-four {
+    font-size: calc(12px + 1vw);
+  }
+  .block-five {
+  font-size: calc(12px + 0.6vw);
   }
 }
