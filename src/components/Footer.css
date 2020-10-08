@@ -109,7 +109,7 @@
 
 .footer-menu {
   margin: 20px;
-  font-size: calc(12px + 1vw);
+  font-size: calc(15px + 1vw);
 }
 
 .footer-line {
@@ -140,7 +140,7 @@
 }
 .footer-menu {
   margin: 20px;
-  font-size: calc(12px + 1vw);
+  font-size: calc(15px + 1vw);
 }
 .footer-line{
   border-left: none;
