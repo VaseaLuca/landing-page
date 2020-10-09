@@ -1,9 +1,10 @@
 import React from 'react';
 
+import Menu from './Menu';
 import logo from '../assets/logo-white.png';
 import './Navbar.css';
 
-const Navbar = () => {
+const Navbar = ({ drawer }) => {
   return (
     <div className='nav'>
       <div className="navbar">
@@ -12,6 +13,7 @@ const Navbar = () => {
         </div>
         <div className="nav-space" />
         <div className="nav-right">
+          <div className='menu'><Menu /></div>
           <div className="nav-menu">Portfolio</div>
           <div className="nav-menu">Blog</div>
           <div className="nav-menu">Pricing</div>

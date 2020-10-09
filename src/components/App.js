@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{ useState } from 'react';
 
 import Slider from './Slider';
 import Navbar from './Navbar';
@@ -8,12 +8,20 @@ import About from './About';
 import Work from './Work';
 import Testimonials from './Testimonials';
 import Footer from './Footer';
+import Backdrop from './Backdrop';
+import Sidedrawer from './Sidedrawer';
+
 
 
 const App = () => {
+
+  const [sideDrawerOpen, setSideDrawerOpen] = useState(false);
+
   return (
     <div className="app">
-      <Navbar />
+      <Backdrop click={() => setSideDrawerOpen(!sideDrawerOpen)} open={sideDrawerOpen} />
+      <Navbar drawer={sideDrawerOpen} />
+      <Sidedrawer />
       <Slider />
       <Infoblock />
       <Portfolio />
