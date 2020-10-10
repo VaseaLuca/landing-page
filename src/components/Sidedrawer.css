@@ -1,9 +1,9 @@
 .sidedrawer {
-  position: absolute;
+  position: fixed;
   z-index: 200;
   background-color: #a97b4c7e;
-  width: 60%;
-  height: 100%;
+  width: 70%;
+  height: 200vh;
   top:0;
   right: 0;
   box-shadow: 2px 0 5px rgba(0,0,0,0.);
@@ -21,10 +21,25 @@
   justify-content: center;
   white-space: nowrap;
   text-align: center;
+  margin-top: 60px;
 }
 .sidedrawer li {
   list-style: none;
   margin: 10px 0;
   color: #fff;
+  font-size: calc(20px + 1vw);
+  cursor: pointer;
 
+}
+.sidedrawer li:hover{
+  color: rgba(255, 255, 255, 0.575);
+  transform:scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+
+
+@media (min-width: 1025px) and (max-width: 5080px) {
+.sidedrawer.open {
+  transform: translate(100%);
+}
 }
