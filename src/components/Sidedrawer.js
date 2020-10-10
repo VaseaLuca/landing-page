@@ -4,9 +4,9 @@ import React from 'react'
 import './Sidedrawer.css';
 
 
-const Sidedrawer = () => {
+const Sidedrawer = ({ sideDrawerIsOpen }) => {
   return (
-    <div className='sidedrawer'>
+    <div className={`sidedrawer ${sideDrawerIsOpen && `open`}`}>
       <ul>
         <li>Portfolio</li>
         <li>Blog</li>
@@ -15,6 +15,6 @@ const Sidedrawer = () => {
       </ul>
     </div>
   );
-}
+};
 
 export default Sidedrawer

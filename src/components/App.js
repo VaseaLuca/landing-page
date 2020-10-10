@@ -20,8 +20,8 @@ const App = () => {
   return (
     <div className="app">
       <Backdrop click={() => setSideDrawerOpen(!sideDrawerOpen)} open={sideDrawerOpen} />
-      <Navbar drawer={sideDrawerOpen} />
-      <Sidedrawer />
+      <Navbar openSideDrawer={() => setSideDrawerOpen(!sideDrawerOpen)} isSidedrawerOpen={sideDrawerOpen} />
+      <Sidedrawer sideDrawerIsOpen={sideDrawerOpen} />
       <Slider />
       <Infoblock />
       <Portfolio />

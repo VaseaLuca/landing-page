@@ -2,12 +2,16 @@ import React, {useState} from 'react';
 
 import './Menu.css';
 
-const Menu = () => {
+const Menu = ({ openSideDrawer, isSidedrawerOpen }) => {
   const [trigger, settrigger] = useState(false);
 
+
   return (
-    <div className="menu" onClick={() => settrigger(!trigger)}>
-      <div className={`menu-stick ${trigger && `trigger`}`}></div>
+    <div
+      className="menu"
+      onClick={(() => settrigger(!trigger), openSideDrawer)}
+    >
+      <div className={`menu-stick ${isSidedrawerOpen && `trigger`}`}></div>
     </div>
   );
 };
