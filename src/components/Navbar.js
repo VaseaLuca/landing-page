@@ -20,7 +20,7 @@ const Navbar = ({ openSideDrawer, isSidedrawerOpen }) => {
             />
           </div>
           <div className="nav-menu">Portfolio</div>
-          <div className="nav-menu">Blog</div>
+          <div className="nav-menu">Client Area</div>
           <div className="nav-menu">Pricing</div>
           <div className="nav-menu">Contact us</div>
         </div>

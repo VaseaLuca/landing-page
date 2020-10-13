@@ -1,16 +1,16 @@
 import React,{ useState } from 'react';
+import { Route } from 'react-router-dom';
 
-import Slider from './Slider';
+
+
 import Navbar from './Navbar';
-import Infoblock from './Infoblock';
-import Portfolio from './Portfolio';
-import About from './About';
-import Work from './Work';
-import Testimonials from './Testimonials';
-import Footer from './Footer';
 import Backdrop from './Backdrop';
 import Sidedrawer from './Sidedrawer';
-
+import Home from './Home';
+import Portfolio from './PortfolioArea';
+import Client from './Client';
+import Pricing from './Pricing';
+import Contact from './Contact_US';
 
 
 const App = () => {
@@ -41,13 +41,12 @@ const App = () => {
       <Backdrop click={() => setSideDrawerOpen(!sideDrawerOpen)} open={sideDrawerOpen} />
       <Navbar openSideDrawer={() => setSideDrawerOpen(!sideDrawerOpen)} isSidedrawerOpen={sideDrawerOpen} />
       <Sidedrawer sideDrawerIsOpen={sideDrawerOpen} />
-      <Slider />
-      <Infoblock />
-      <Portfolio />
-      <About />
-      <Work />
-      <Testimonials />
-      <Footer />
+      <Route path='/' exact component={Home} />
+      <Route path='/portfolio' exact component={Portfolio} />
+      <Route path='/client' exact component={Client} />
+      <Route path='/pricing' exact component={Pricing} />
+      <Route path='/contact' exact component={Contact} />
+
     </div>
   );
 }

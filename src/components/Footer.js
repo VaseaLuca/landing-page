@@ -23,7 +23,7 @@ const Footer = () => {
       <div className="footer-block-two">
         <div className="footer-menu-align-first">
           <div className="footer-menu">Portfolio</div>
-          <div className="footer-menu">Blog</div>
+          <div className="footer-menu">Client Area</div>
         </div>
         <div className="footer-menu-align-second">
           <div className="footer-menu">Pricing</div>
