@@ -26,6 +26,7 @@
   white-space: nowrap;
   cursor: pointer;
   transition: 0.2s ease-in-out;
+  text-decoration: none;
 }
 .nav-menu:hover {
   transform: scale(1.1);

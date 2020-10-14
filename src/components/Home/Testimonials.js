@@ -1,6 +1,6 @@
 import React from 'react';
 
-import testimonials_img from "../assets/cave-photo.jpg";
+import testimonials_img from "../../assets/cave-photo.jpg";
 
 import './Testimonials.css';
 

@@ -1,8 +1,8 @@
 import React from "react";
 
-import couple from "../assets/couple.jpg";
-import coupleSingle from "../assets/couple-single.jpg";
-import portrait from "../assets/portrait.jpg";
+import couple from "../../assets/couple.jpg";
+import coupleSingle from "../../assets/couple-single.jpg";
+import portrait from "../../assets/portrait.jpg";
 import './Portfolio.css';
 
 const Portfolio = () => {

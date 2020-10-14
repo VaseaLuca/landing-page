@@ -1,7 +1,7 @@
 import React from 'react'
 
-import fb_logo from '../assets/facebook.png';
-import ig_logo from '../assets/instagram.png';
+import fb_logo from '../../assets/facebook.png';
+import ig_logo from '../../assets/instagram.png';
 
 import './Footer.css';
 

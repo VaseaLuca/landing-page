@@ -1,8 +1,6 @@
 import React,{ useState } from 'react';
 import { Route } from 'react-router-dom';
 
-
-
 import Navbar from './Navbar';
 import Backdrop from './Backdrop';
 import Sidedrawer from './Sidedrawer';
@@ -46,7 +44,6 @@ const App = () => {
       <Route path='/client' exact component={Client} />
       <Route path='/pricing' exact component={Pricing} />
       <Route path='/contact' exact component={Contact} />
-
     </div>
   );
 }

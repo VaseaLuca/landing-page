@@ -29,14 +29,15 @@
   color: #fff;
   font-size: calc(20px + 1vw);
   cursor: pointer;
-
 }
 .sidedrawer li:hover{
   color: rgba(255, 255, 255, 0.575);
   transform:scale(1.1);
   transition: all 0.2s ease-in-out;
 }
-
+a {
+ text-decoration: none;
+}
 
 @media (min-width: 1025px) and (max-width: 5080px) {
 .sidedrawer.open {

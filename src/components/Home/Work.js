@@ -1,12 +1,12 @@
 import React from 'react'
 
-import mountain1 from "../assets/mountain1.jpg";
-import couple1 from "../assets/couple1.jpg";
-import couple2 from "../assets/couple2.jpg";
-import couple3 from '../assets/couple3.jpg';
-import couple4 from "../assets/couple-park.jpg";
-import mountain2 from "../assets/mountain2.jpg";
-import Workcard from './Workcard';
+import mountain1 from "../../assets/mountain1.jpg";
+import couple1 from "../../assets/couple1.jpg";
+import couple2 from "../../assets/couple2.jpg";
+import couple3 from '../../assets/couple3.jpg';
+import couple4 from "../../assets/couple-park.jpg";
+import mountain2 from "../../assets/mountain2.jpg";
+import Workcard from '../Home/Workcard';
 import './Work.css';
 
 const Work = () => {

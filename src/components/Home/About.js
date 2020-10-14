@@ -1,6 +1,6 @@
 import React from 'react'
 
-import cover from '../assets/cover.jpg';
+import cover from "../../assets/cover.jpg";
 import './About.css';
 
 const About = () => {
