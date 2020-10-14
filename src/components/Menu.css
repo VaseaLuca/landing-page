@@ -8,7 +8,7 @@
   height: 32px;
   transform: translate(-50%,-25%);
 }
-.menu-stick{ 
+.menu-stick {
   background: #ffffff;
   width: 40px;
   height: 2px;
@@ -27,6 +27,7 @@
   left: 0;
   top:-13px;
 }
+
 .menu-stick::after {
   background: #ffffff;
   width: 40px;
@@ -46,7 +47,53 @@
   transform: translateY(-12.7px) translateX(0.5px) rotate(45deg) scale(0.7);
   will-change: auto;
 }
-.menu-stick.trigger::before{
+.menu-stick.trigger::before {
+  transform-origin: 100% 50%;
+  transform: translateY(12.5px) translateX(1px) rotate(-45deg) scaleX(0.7);
+  will-change: auto;
+}
+.menu-stick-dark {
+  background: #535353b6;
+  width: 40px;
+  height: 2px;
+  position: absolute;
+  transition: all .4s;
+  transform-origin: 50% 50%;
+}
+
+.menu-stick-dark::before {
+  background: #535353b6;
+  width: 40px;
+  height: 2px;
+  position: absolute;
+  transition: all .4s;
+  transform-origin: 50% 50%;
+  content: '';
+  left: 0;
+  top: -13px;
+}
+
+.menu-stick-dark::after {
+  background: #535353b6;
+  width: 40px;
+  height: 2px;
+  position: absolute;
+  transition: all .4s;
+  transform-origin: 50% 50%;
+  content: '';
+  left: 0;
+  top: 13px;
+}
+.menu-stick-dark.trigger {
+  transform: rotate(180deg);
+}
+
+.menu-stick-dark.trigger::after {
+  transform-origin: 100% 50%;
+  transform: translateY(-12.7px) translateX(0.5px) rotate(45deg) scale(0.7);
+  will-change: auto;
+}
+.menu-stick-dark.trigger::before{
   transform-origin: 100% 50%;
   transform: translateY(12.5px) translateX(1px) rotate(-45deg) scaleX(0.7);
   will-change: auto;

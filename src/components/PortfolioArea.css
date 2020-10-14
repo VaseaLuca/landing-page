@@ -1,0 +1,8 @@
+.portfolioArea {
+  display: flex;
+}
+.portfolioArea-block{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 260px 0 100px 0;
+}

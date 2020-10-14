@@ -28,6 +28,15 @@
   transition: 0.2s ease-in-out;
   text-decoration: none;
 }
+.nav-menu-dark {
+  margin: auto 25px;
+  color: rgb(0, 0, 0);
+  font-size: calc(10px + .57vw);
+  white-space: nowrap;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
+}
 .nav-menu:hover {
   transform: scale(1.1);
 }

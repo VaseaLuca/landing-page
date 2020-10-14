@@ -1,0 +1,44 @@
+.portfolioCard{
+  display: flex;
+  flex-wrap: wrap;
+  transition: 0.2s ease-in-out;
+  margin: 0 auto;
+}
+.portfolioCard-block{
+  display: flex;
+  flex-direction: column;
+  margin: 100px 100px 50px 100px;
+
+}
+.portfolioCard-img img {
+  width: 450px;
+  min-width: 260px;
+  max-width: 100%;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.portfolioCard-img {
+  overflow: hidden;
+}
+.portfolioCard-img img:hover{
+  transform: scale(1.04);
+}
+.portfolioCard-space{
+  flex: 1;
+}
+.portfolioCard-name {
+  text-align: center;
+  margin: 10px 0;
+  font-weight: 400;
+  font-size: calc(14px + 1vw);
+}
+.portfolioCard-view {
+  text-align: center;
+  cursor: pointer;
+  font-weight: 300;
+  font-size: calc(10px + 0.5vw);
+}
+.portfolioCard-view:hover {
+  color: rgba(24, 24, 24, 0.342);
+  transition: 0.2s ease-in-out;
+}
