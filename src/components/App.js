@@ -40,7 +40,7 @@ const App = () => {
       <Navbar openSideDrawer={() => setSideDrawerOpen(!sideDrawerOpen)} isSidedrawerOpen={sideDrawerOpen} />
       <Sidedrawer sideDrawerIsOpen={sideDrawerOpen} />
       <Route path='/' exact component={Home} />
-      <Navbar openSideDrawer={() => setSideDrawerOpen(!sideDrawerOpen)} isSidedrawerOpen={sideDrawerOpen}  isNotHome/>
+      {/* <Navbar openSideDrawer={() => setSideDrawerOpen(!sideDrawerOpen)} isSidedrawerOpen={sideDrawerOpen}  isNotHome/> */}
       <Route path='/portfolio' exact component={Portfolio} />
       <Route path='/client' exact component={Client} />
       <Route path='/pricing' exact component={Pricing} />
