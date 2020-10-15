@@ -1,0 +1,73 @@
+.pricing {
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing-block {
+  display: flex;
+  margin: 250px 10px 50px 10px;
+}
+.pricing-block a {
+text-decoration: none;
+color: rgb(0, 0, 0);
+}
+.pricing-block-two {
+  display: flex;
+  margin: 100px 0 200px 0;
+}
+.pricing-block-two a {
+  text-decoration: none;
+color: rgb(0, 0, 0);
+}
+
+.pricing-photo {
+  display: flex;
+  flex-basis: 70%;
+}
+
+.pricing-photo img {
+  width: 350px;
+  min-width: 260px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+
+.pricing-text {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 70%;
+  white-space: nowrap;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.pricing-description {
+  text-align: center;
+  font-weight: 700;
+  color: rgba(206, 206, 206, 0.808);
+  font-size: calc(20px + 1vw);
+  margin: 0 0 15px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.pricing-price {
+  text-align: center;
+  white-space: nowrap;
+  font-weight: 500;
+  font-size: calc(16px + 0.5vw);
+  margin: 0 0 20px 0;
+}
+
+.pricing-know {
+  text-align: center;
+  font-size: calc(12px + 0.3vw);
+  text-transform: uppercase;
+  font-weight: 400;
+  cursor: pointer;
+}
+.pricing-know:hover{
+  color: rgba(24, 24, 24, 0.342);
+  transition: 0.2s ease-in-out;
+}
