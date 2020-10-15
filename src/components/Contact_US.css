@@ -1,0 +1,67 @@
+.contact {
+display: flex;
+}
+.contact-block {
+  display: flex;
+  flex-direction: column;
+  margin: 260px auto;
+  align-items: center;
+}
+.contact-about{
+  font-weight: 400;
+  font-size: calc(20px + 0.9vw);
+  margin-bottom: 40px;
+}
+.contact-about-text{
+  margin: 0 20px 50px 20px ;
+  font-weight: 400;
+  font-size: calc(16px + 0.2vw);
+  width: 400px;
+  max-width: 100%;
+  min-width: 260px;
+}
+.contact-getInTouch-form{
+  text-align: center;
+}
+.contact-form-name{
+  font-weight: 400;
+  font-size: calc(20px + 0.9vw);
+  margin-bottom: 20px;
+}
+.contact-form-infoblock{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.contact-tel, .contact-email {
+  padding: 0 10px;
+  margin: 0 10px 0 10px;
+  text-transform: uppercase;
+}
+.contact-or{
+  font-weight: 500;
+  font-size: calc(17px + 0.4vw);
+  margin-bottom: 30px;
+}
+.contact-form-rowOne{
+  margin-bottom: 30px;
+}
+.contact-form-rowTwo{
+  margin-bottom: 30px;
+}
+.contact-form-submit {
+  background-color: rgb(29, 29, 29);
+  border: none;
+  color: #fff;
+  padding: 10px 40px;
+  font-weight: 300;
+  font-size: calc(12px + 0.6vw);
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+}
+.contact-form-submit:hover {
+  background-color: rgba(29, 29, 29, 0.925);
+  transform: scale(0.98);
+  transition: all 0.2s ease-in-out;
+}

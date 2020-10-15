@@ -27,7 +27,6 @@
   left: 0;
   top:-13px;
 }
-
 .menu-stick::after {
   background: #ffffff;
   width: 40px;
@@ -60,7 +59,6 @@
   transition: all .4s;
   transform-origin: 50% 50%;
 }
-
 .menu-stick-dark::before {
   background: #535353b6;
   width: 40px;
@@ -72,7 +70,6 @@
   left: 0;
   top: -13px;
 }
-
 .menu-stick-dark::after {
   background: #535353b6;
   width: 40px;
@@ -87,7 +84,6 @@
 .menu-stick-dark.trigger {
   transform: rotate(180deg);
 }
-
 .menu-stick-dark.trigger::after {
   transform-origin: 100% 50%;
   transform: translateY(-12.7px) translateX(0.5px) rotate(45deg) scale(0.7);
@@ -98,33 +94,23 @@
   transform: translateY(12.5px) translateX(1px) rotate(-45deg) scaleX(0.7);
   will-change: auto;
 }
-
 @media (min-width: 1025px) and (max-width: 5009px) {
 .menu {
   display: none;
 }
 }
-
 @media (min-width: 768px) and (max-width: 1024px) {
 .nav-menu{
   display: none;
 }
 }
-
 @media (min-width: 1025px) and (max-width: 1366px) and (orientation: landscape) {
 .menu {
   display: none;
 }
 }
-@media (min-width: 768px) and (max-width: 1364px) and (orientation: landscape) {
-
-}
-
-
-@media (min-width: 481px) and (max-width: 767px) {
-
-}
-
+@media (min-width: 768px) and (max-width: 1364px) and (orientation: landscape) {}
+@media (min-width: 481px) and (max-width: 767px) {}
 @media (min-width: 320px) and (max-width: 480px) {
 .menu {
   width: 35px;
@@ -136,6 +122,15 @@
   width: 35px;
 }
 .menu-stick::after {
+  width: 35px;
+}
+.menu-stick-dark {
+  width: 35px;
+}
+.menu-stick-dark::before {
+  width: 35px;
+}
+.menu-stick-dark::after {
   width: 35px;
 }
 }
@@ -150,6 +145,15 @@
   width: 35px;
 }
 .menu-stick::after {
+  width: 35px;
+}
+.menu-stick-dark {
+  width: 35px;
+}
+.menu-stick-dark::before {
+  width: 35px;
+}
+.menu-stick-dark::after {
   width: 35px;
 }
 }

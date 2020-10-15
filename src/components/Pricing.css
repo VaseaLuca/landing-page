@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
 }
-
 .pricing-block {
   display: flex;
   margin: 250px 10px 50px 10px;
@@ -19,20 +18,16 @@ color: rgb(0, 0, 0);
   text-decoration: none;
 color: rgb(0, 0, 0);
 }
-
 .pricing-photo {
   display: flex;
   flex-basis: 70%;
 }
-
 .pricing-photo img {
   width: 350px;
   min-width: 260px;
   max-width: 100%;
   margin: 0 auto;
 }
-
-
 .pricing-text {
   display: flex;
   flex-direction: column;
@@ -41,7 +36,6 @@ color: rgb(0, 0, 0);
   justify-content: center;
   margin: 0 10px;
 }
-
 .pricing-description {
   text-align: center;
   font-weight: 700;
@@ -51,7 +45,6 @@ color: rgb(0, 0, 0);
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-
 .pricing-price {
   text-align: center;
   white-space: nowrap;
@@ -59,7 +52,6 @@ color: rgb(0, 0, 0);
   font-size: calc(16px + 0.5vw);
   margin: 0 0 20px 0;
 }
-
 .pricing-know {
   text-align: center;
   font-size: calc(12px + 0.3vw);
