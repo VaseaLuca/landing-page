@@ -30,9 +30,9 @@ const Contact = () => {
             </div>
           </div>
           <div className="contact-or">or</div>
-          <form className="contact-form" action="submit">
+          <form className="contact-form" action="mailto:lucavpath@gmail.com" method='POST'>
             <div className="contact-form-rowOne">
-              <input type="text" placeholder="Your Name" autoComplete="off" />
+              <input type="text" placeholder="Your Name" autoComplete="off"  />
               <input
                 type="email"
                 placeholder="Email Aress"
@@ -42,10 +42,10 @@ const Contact = () => {
             <div className="contact-form-rowTwo">
               <input
                 type="text"
-                placeholder="Write a short description of how you see out collaboration"
+                placeholder="Write a short description"
               />
             </div>
-            <button className='contact-form-submit' type="submit">Send</button>
+            <button className='contact-form-submit-btn' value='Submit' type="submit">Send</button>
           </form>
         </div>
         <div className="contact-footer"></div>

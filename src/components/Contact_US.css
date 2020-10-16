@@ -16,12 +16,15 @@ display: flex;
   margin: 0 20px 50px 20px ;
   font-weight: 400;
   font-size: calc(16px + 0.2vw);
-  width: 400px;
+  width: 500px;
   max-width: 100%;
   min-width: 260px;
 }
 .contact-getInTouch-form{
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  align-items: center;
 }
 .contact-form-name{
   font-weight: 400;
@@ -32,11 +35,17 @@ display: flex;
   display: flex;
   flex-direction: row;
   margin-bottom: 20px;
+  
 }
 .contact-tel, .contact-email {
   padding: 0 10px;
   margin: 0 10px 0 10px;
   text-transform: uppercase;
+  font-weight: 300;
+}
+.contact-tel a, .contact-email a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
 }
 .contact-or{
   font-weight: 500;
@@ -44,23 +53,49 @@ display: flex;
   margin-bottom: 30px;
 }
 .contact-form-rowOne{
-  margin-bottom: 30px;
+  margin-bottom: 70px;
 }
 .contact-form-rowTwo{
   margin-bottom: 30px;
 }
-.contact-form-submit {
+.contact-form-rowOne input,
+.contact-form-rowTwo input {
+  padding: 10px 10px;
+  margin: 0 10px 30px 10px;
+  text-align: center;
+  width: 400px;
+  max-width: 100%;
+  min-width: 260px;
+  font-size: calc(12px + 0.1vw);
+  font-weight: 300;
+  border: 0 0 1px 0 ;
+  border-radius: 0px;
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+  
+}
+.contact-form-rowOne input::placeholder,
+.contact-form-rowTwo input::placeholder{
+  color: #B4B4B4;
+  letter-spacing: 7px;
+  font-size: calc(11px + 0.1vw);
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.contact-form-submit-btn {
   background-color: rgb(29, 29, 29);
   border: none;
   color: #fff;
-  padding: 10px 40px;
+  padding: 10px 35px;
   font-weight: 300;
-  font-size: calc(12px + 0.6vw);
+  font-size: calc(12px + 0.4vw);
   text-transform: uppercase;
   outline: none;
   cursor: pointer;
 }
-.contact-form-submit:hover {
+.contact-form-submit-btn:hover {
   background-color: rgba(29, 29, 29, 0.925);
   transform: scale(0.98);
   transition: all 0.2s ease-in-out;
