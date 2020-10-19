@@ -42,3 +42,15 @@
   color: rgba(24, 24, 24, 0.342);
   transition: 0.2s ease-in-out;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+ .portfolioCard-block {
+   margin: 100px 10px 50px 10px;
+ }
+}
+
+@media (min-width: 260px) and (max-width: 319px) {
+ .portfolioCard-block {
+    margin: 100px 10px 50px 10px;
+}
+}

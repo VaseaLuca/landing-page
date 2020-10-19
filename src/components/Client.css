@@ -27,7 +27,7 @@
 .client-input input {
   width: 350px;
   max-width: 100%;
-  min-width: 260px;
+  min-width: 170px;
   padding: 20px 40px;
   border: 1px solid rgba(214, 214, 214, 0.788);
   outline: none;
@@ -54,4 +54,24 @@
   background-color: rgba(29, 29, 29, 0.925);
   transform: scale(0.98);
   transition: all 0.2s ease-in-out;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+.client-block {
+  margin: 300px auto;
+}
+
+.client-input input {
+  width: 218px;
+}
+}
+
+@media (min-width: 260px) and (max-width: 319px) {
+.client-block {
+  margin: 200px auto;
+}
+.client-input input {
+  width: 180px;
+}
 }
