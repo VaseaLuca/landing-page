@@ -12,7 +12,7 @@ color: rgb(0, 0, 0);
 }
 .pricing-block-two {
   display: flex;
-  margin: 100px 0 200px 0;
+  margin: 100px 10px 200px 10px;
 }
 .pricing-block-two a {
   text-decoration: none;
@@ -24,7 +24,7 @@ color: rgb(0, 0, 0);
 }
 .pricing-photo img {
   width: 350px;
-  min-width: 260px;
+  min-width: 250px;
   max-width: 100%;
   margin: 0 auto;
 }
@@ -62,4 +62,35 @@ color: rgb(0, 0, 0);
 .pricing-know:hover{
   color: rgba(24, 24, 24, 0.342);
   transition: 0.2s ease-in-out;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+.pricing-block {
+  flex-direction: column-reverse;
+  margin: 200px 10px 50px 10px;
+}
+
+.pricing-block-two {
+  flex-direction: column;
+}
+
+.pricing-know {
+  margin-bottom: 50px;
+}
+}
+
+@media (min-width: 260px) and (max-width: 319px) {
+.pricing-block  {
+  flex-direction: column-reverse;
+  margin: 200px 10px 50px 10px;
+}
+.pricing-block-two{
+  flex-direction: column;
+}
+.pricing-know {
+  margin-bottom: 50px;
+}
+.pricing-photo img {
+  width: 250px;
+}
 }
