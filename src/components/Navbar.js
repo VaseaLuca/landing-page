@@ -10,6 +10,7 @@ import './Navbar.css';
 const Navbar = ({ openSideDrawer, isSidedrawerOpen }) => {
 
   const [isNotHome, setIsNotHome] = useState(false);
+  const [isClient, setIsClient] = useState(false);
 
   let location = useLocation();
 
@@ -25,13 +26,18 @@ const Navbar = ({ openSideDrawer, isSidedrawerOpen }) => {
     if (location.pathname === "/") {
       setIsNotHome(false);
     }
+    if (location.pathname === '/client'){
+      setIsClient(true);
+    } else {
+      setIsClient(false);
+    }
   }, [location]);
 
   return (
-    <div className="nav">
+    <div className={`nav ${isClient && `none`}`}>
       <div className="navbar">
         <Link to='/' className="nav-left">
-          <img className="nav-logo" src={`${isNotHome? logo_dark : logo}`} alt="logo" />
+          <img className={`nav-logo`} src={`${isNotHome? logo_dark : logo}`} alt="logo" />
         </Link>
         <div className="nav-space" />
         <div className="nav-right">

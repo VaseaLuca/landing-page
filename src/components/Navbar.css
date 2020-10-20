@@ -11,6 +11,9 @@
   width: calc(50px + 4.5vw);
   cursor: pointer;
 }
+.none {
+  display: none;
+}
 .nav-space {
   flex: 1;
 }
