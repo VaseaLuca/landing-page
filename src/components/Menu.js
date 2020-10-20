@@ -10,7 +10,7 @@ const Menu = ({ openSideDrawer, isSidedrawerOpen, isNotHome }) => {
       className="menu"
       onClick={(() => settrigger(!trigger), openSideDrawer)}
     >
-      <div className={`${isNotHome? `menu-stick`:`menu-stick-dark`} ${isSidedrawerOpen && `trigger`}`}></div>
+      <div className={`menu-stick ${isNotHome && `menu-stick-dark`} ${isSidedrawerOpen && `trigger`}`}></div>
     </div>
   );
 };
