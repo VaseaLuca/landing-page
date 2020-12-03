@@ -7,8 +7,8 @@
   margin: 250px 10px 50px 10px;
 }
 .pricing-block a {
-text-decoration: none;
-color: rgb(0, 0, 0);
+  text-decoration: none;
+  color: rgb(0, 0, 0);
 }
 .pricing-block-two {
   display: flex;
@@ -16,10 +16,10 @@ color: rgb(0, 0, 0);
 }
 .pricing-block-two a {
   text-decoration: none;
-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 .pricing-photo {
-  display: flex;
+  text-align: center;
   flex-basis: 70%;
 }
 .pricing-photo img {

@@ -2,17 +2,21 @@
   display: flex;
 }
 .client-block{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
   margin: 300px auto;
 }
 .client-logo {
-  display: flex;
   align-self: center;
   margin: 0 0 60px 0 
 }
 .client-logo img {
+  width: -webkit-calc(150px + 5.5vw);
+  width: -moz-calc(150px + 5.5vw);
   width: calc(150px + 5.5vw);
+
   cursor: pointer;
 }
 .client-text{

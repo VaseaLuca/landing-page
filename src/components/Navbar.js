@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 import Menu from './Menu';
-import logo from '../assets/logo-white.png';
-import logo_dark from '../assets/logo.png';
+import logo from "../assets/logo-white.png";
+import logo_dark from '../assets/logo.jpg';
 import './Navbar.css';
 
 

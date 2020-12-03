@@ -1,6 +1,6 @@
 import React from 'react'
 
-import logo from '../assets/logo.png';
+import logo from "../assets/logo.jpg";
 import './Client.css';
 
 const Client = () => {
