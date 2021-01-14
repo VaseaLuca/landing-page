@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 import fb_logo from '../../assets/facebook.png';
 import ig_logo from '../../assets/instagram.png';
@@ -22,12 +23,12 @@ const Footer = () => {
         <div className='footer-line'/>
       <div className="footer-block-two">
         <div className="footer-menu-align-first">
-          <div className="footer-menu">Portfolio</div>
-          <div className="footer-menu">Client Area</div>
+          <Link to='/portfolio'><div className="footer-menu">Portfolio</div></Link>
+          <Link to='/client'><div className="footer-menu">Client Area</div></Link>
         </div>
         <div className="footer-menu-align-second">
-          <div className="footer-menu">Pricing</div>
-          <div className="footer-menu">Contact us</div>
+          <Link to='/pricing'><div className="footer-menu">Pricing</div></Link>
+          <Link to='/contact'><div className="footer-menu">Contact us</div></Link>
         </div>
       </div>
     </div>

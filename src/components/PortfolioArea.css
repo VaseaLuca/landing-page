@@ -1,6 +1,8 @@
 .portfolioArea {
   display: flex;
+  flex-direction: column;
 }
+
 .portfolioArea-block{
   display: flex;
   flex-wrap: wrap;

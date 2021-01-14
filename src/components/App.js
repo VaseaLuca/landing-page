@@ -14,25 +14,6 @@ import Contact from './Contact_US';
 const App = () => {
 
   const [sideDrawerOpen, setSideDrawerOpen] = useState(false);
-//   const [windowSize, setWindowSize] = useState({width:undefined})
-
-//   useEffect(()=> {
-//     function handleResize() {
-//       setWindowSize({width: window.innerWidth})
-//     }
-    
-//       window.addEventListener("resize", handleResize);
-//       return () => window.removeEventListener("resize", handleResize);
-//   }, []);
-
-//   function resizeScreen() {
-//     if(windowSize.width > 1024) {
-//    return () => setSideDrawerOpen(!sideDrawerOpen);
-//   } else {
-//     return  () => setSideDrawerOpen(!sideDrawerOpen);
-//   }
-//    }
-// resizeScreen();
 
   return (
     <div className="app">
